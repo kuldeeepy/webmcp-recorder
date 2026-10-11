@@ -1,0 +1,26 @@
+Order number,Refund amount (₹),Reason,Notes
+ORD-1001,8885,damaged,Standard refund request
+ORD-1002,8220,late_delivery,Standard refund request
+ORD-1003,9600,wrong_item,Standard refund request
+ORD-1004,7755,customer_request,Standard refund request
+ORD-1005,5730,damaged,Standard refund request
+ORD-1006,7280,late_delivery,Standard refund request
+ORD-1007,6060,wrong_item,Standard refund request
+ORD-1008,2050,customer_request,Amount exceeds order total
+ORD-1009,7105,damaged,Standard refund request
+ORD-1010,7865,late_delivery,Standard refund request
+ORD-1011,7175,wrong_item,Standard refund request
+ORD-1012,3385,customer_request,Standard refund request
+ORD-1013,7475,damaged,Standard refund request
+ORD-1014,9490,late_delivery,Standard refund request
+ORD-9999,500,wrong_item,Order does not exist
+ORD-1016,8965,customer_request,Standard refund request
+ORD-1017,2030,damaged,Standard refund request
+ORD-1018,1565,late_delivery,Standard refund request
+ORD-1019,6635,wrong_item,Standard refund request
+ORD-1020,8365,customer_request,Standard refund request
+ORD-1003,1000,damaged,Duplicate refund attempt
+ORD-1022,4555,late_delivery,Standard refund request
+ORD-1023,3295,wrong_item,Standard refund request
+ORD-1024,5075,customer_request,Standard refund request
+ORD-1025,6790,damaged,Standard refund request

@@ -1,0 +1,77 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: #1a1a2e;
+  background: #f7f7fb;
+}
+a, button { font: inherit; }
+:focus-visible { outline: 3px solid #2458e8; outline-offset: 2px; }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #1a1a2e;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.topbar .brand { font-weight: 700; }
+.topbar nav { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.topbar a { color: #cfd8ff; text-decoration: none; }
+.topbar a:hover { text-decoration: underline; }
+.inline-form { display: inline; }
+.topbar button {
+  background: none; border: 1px solid #cfd8ff; color: #cfd8ff;
+  padding: 0.3rem 0.7rem; border-radius: 4px; cursor: pointer;
+}
+
+main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+
+label { display: block; font-weight: 600; margin: 0.75rem 0 0.25rem; }
+input, select, textarea, button {
+  font-size: 1rem; padding: 0.5rem; border: 1px solid #c3c3d0; border-radius: 4px;
+}
+input, select, textarea { width: 100%; max-width: 420px; }
+button {
+  background: #2458e8; color: #fff; border: none; cursor: pointer; padding: 0.55rem 1.1rem;
+}
+button:hover { background: #1a46c0; }
+button#refund-cancel { background: #888; }
+
+.search-form { display: flex; gap: 0.75rem; align-items: flex-end; flex-wrap: wrap; }
+.search-form label { margin: 0; }
+
+.order-card {
+  border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin: 0.75rem 0; background: #fff;
+}
+.order-card h3 { margin: 0 0 0.25rem; }
+.order-card.refunded { border-color: #2a9d5c; }
+.badge-refunded { color: #2a9d5c; font-weight: 600; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid #ddd; }
+
+dialog { border: none; border-radius: 10px; padding: 1.5rem; width: min(90vw, 480px); }
+dialog::backdrop { background: rgba(0, 0, 0, 0.4); }
+.dialog-actions { display: flex; gap: 0.75rem; margin-top: 1rem; }
+
+.error { color: #b00020; font-weight: 600; }
+.banner, .hint { color: #2a9d5c; }
+.hint { color: #555; font-size: 0.9rem; }
+
+#toast {
+  position: fixed; bottom: 1rem; right: 1rem; background: #1a1a2e; color: #fff;
+  padding: 0.75rem 1rem; border-radius: 6px; display: none;
+}
+#toast.show { display: block; }
+
+body.centered { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+.auth-card { background: #fff; padding: 2rem; border-radius: 10px; width: min(90vw, 360px); box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+
+@media (max-width: 600px) {
+  .topbar { flex-direction: column; align-items: flex-start; }
+  input, select, textarea { max-width: 100%; }
+}

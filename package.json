@@ -1,0 +1,24 @@
+{
+  "name": "webmcp-recorder",
+  "version": "1.0.0",
+  "description": "Teach a web task once, run it for every row of a spreadsheet. A 100% local Chrome extension.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/unit/*.test.js",
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "test:e2e": "npm run build && node test/e2e/run.js && node test/e2e/opsdesk.js",
+    "package": "node scripts/package.mjs",
+    "icons": "node scripts/icons.mjs",
+    "store-assets": "node scripts/store-assets.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.64.0"
+  },
+  "type": "module",
+  "private": true
+}

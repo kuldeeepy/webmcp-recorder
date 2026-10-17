@@ -22,10 +22,6 @@
   <sub><a href="assets/demo.mp4">watch the full demo</a> · <a href="https://x.com/itskuldeeep/status/2109515395396972761">or on x</a></sub>
 </p>
 
-<p align="center">
-  <img src="store/screenshots/2-spreadsheet.png" width="820" alt="Running a refund task for every row of a spreadsheet, with live status per row">
-</p>
-
 ## why
 
 a lot of work is typing the same thing into the same web form: invoices into a portal, refunds in an admin panel, bookings, new customers. most of those sites have no api, and most automation tools want an account, a cloud, or a script.
@@ -41,11 +37,6 @@ webmcp recorder watches you do the task once, then does it again, with new value
 - **honest results.** every run reports what the site itself said ("invoice inv-104 saved", "email is invalid"), never a silent "done".
 - **share with your team.** export a site's tasks to a file; teammates import it.
 - **works with ai agents.** saved tasks are registered as webmcp tools (`document.modelContext`), so in-browser agents can call them.
-
-<p align="center">
-  <img src="store/screenshots/1-teach.png" width="410" alt="Review screen showing recorded steps">
-  <img src="store/screenshots/3-fix.png" width="410" alt="Point-to-fix asking where the button went">
-</p>
 
 ## install (1 minute)
 

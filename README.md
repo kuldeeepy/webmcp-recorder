@@ -19,7 +19,7 @@
 <p align="center">
   <a href="assets/demo.mp4"><img src="assets/demo-preview.gif" width="820" alt="WebMCP Recorder filling an invoice form from a recorded task"></a>
   <br>
-  <sub><a href="assets/demo.mp4">watch the full 50-second demo</a> · <a href="https://x.com/itskuldeeep/status/2109515395396972761">or on x</a></sub>
+  <sub><a href="assets/demo.mp4">watch the full demo</a> · <a href="https://x.com/itskuldeeep/status/2109515395396972761">or on x</a></sub>
 </p>
 
 <p align="center">
